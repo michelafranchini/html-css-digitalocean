@@ -39,3 +39,68 @@
     background-color: #006aff;
     color: white;
 }
+
+h1 {
+    font-size: 63px;
+}
+.ms_jumbotron {
+    padding: 60px 0;
+    height: 100%;
+    background-image: url('img/bg-banner-home.jpg');
+    background-size: cover;
+}
+.white_text {
+    color: white;
+}
+.jumbotron_text {
+    padding-right: 30px;
+}
+.jumbotron_text p {
+    font-size: 20px;
+    color: #bbcdff;
+}
+.jumbotron_form {
+    background-color: white;
+    border-radius: 10px ;
+}
+.jumbotron_form h2 {
+    color: #031c4e;
+}
+.jumbotron_form h3 {
+    font-size: 30px;
+    color: #006aff;
+}
+.btn_blu {
+    transition: all 0.3;
+    background-color: #579aff ;
+    color: white;
+}
+.btn_blu:hover {
+    background-color:#046fff ;
+}
+
+.btn_white {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #888888;
+    color: #626262;
+}
+
+form img {
+    height: 15px;
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 991px) {
+    h1 {
+        font-size: 50px ;
+    }
+}
