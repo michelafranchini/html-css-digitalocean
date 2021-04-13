@@ -94,13 +94,52 @@ form img {
     left: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 40px;
-    }
+
+/* sezione deploy */
+.deploy_title h2,
+.deploy_title h4 {
+    text-align: center;
 }
-@media screen and (min-width:769px) and (max-width: 991px) {
-    h1 {
-        font-size: 50px ;
+
+.deploy_title h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #031c4e;
+}
+.deploy_title h4 {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.left_list li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.left_list {
+    padding: 0 10px ;
+    border-left: 2px solid #cccccc;
+}
+
+.deploy_item {
+    padding: 20px;
+}
+
+.deploy_item h4 {
+    font-weight: bold;
+    color: #031c4e;
+}
+
+.deploy_item p, 
+.deploy_title h4, 
+.left_list li {
+    color: #5c6a88;
+}
+
+@media screen and (max-width: 768px) {
+    .deploy_item {
+        padding: 0px;
     }
 }
