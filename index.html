@@ -9,11 +9,9 @@
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
         <link rel="stylesheet" href="css/style.css">
         <title>Digital Ocean</title>
     </head>
@@ -31,7 +29,8 @@
                         </button>
                         <a class="navbar-brand" id="logo" href="#"><img src="img/logo.png" alt="#"></a>
                     </div>
-                    <div class="collapse navbar-collapse text-left col-lg-5" id="bs-example-navbar-collapse-1">
+                    
+                    <!-- <div class="collapse navbar-collapse text-left col-lg-5" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-left hidden-sm hidden-md">
                             <li><a href="#products">Products <i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#customer">Customer</a></li>
@@ -46,7 +45,53 @@
                             <li><a href="#login">Login</a></li>
                             <button type="submit" class="btn btn_signup">Sign Up</button>
                         </ul>
-                    </div>
+                    </div> -->
+                    <div class="collapse navbar-collapse"        id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav text-left col-lg-5">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">Customers</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                        
+                        <ul class="nav navbar-nav navbar-right hidden-sm hidden-md col-lg-4">
+                        <li><a href="#">Docs</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Login</a></li>
+                        <button type="submit" class="btn btn_signup">Sign Up</button>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
                 </div>
             </nav>
             <!-- /navbar -->
@@ -69,7 +114,7 @@
                               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                             </div>
                             <button type="submit" class="btn btn_blu col-lg-12 col-md-12 col-sm-12 col-xs-12">Create your account</button>
-                            <button type="submit" class="btn btn_white col-lg-12 col-md-12 col-sm-12 col-xs-12"><img src="img/google-icon.png" alt="google"> Sign up with Google</button>
+                            <button type="submit" class="btn btn_white_google col-lg-12 col-md-12 col-sm-12 col-xs-12"><img src="img/google-icon.png" alt="google"> Sign up with Google</button>
                         </form>
                         <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
                     </div>
@@ -295,28 +340,111 @@
                         <i class="far fa-circle"></i>
                         <i class="far fa-circle"></i>
                     </div>
-                    
                 </div>
             </section>
             <!-- /blocco gallery 2 -->
 
             <!-- sezione sopra il footer -->
-            <section>
-
+            <section class="bg_gradient" id="upper_footer">
+                <div class="text-center">
+                    <h2>Get started now</h2>
+                    <button type="button" class="btn btn_white">Create your account</button>
+                </div>
             </section>
             <!-- sezione sopra il footer -->
 
             <footer>
-                
+                <div class="container">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/logo-small.svg" alt="logo_small">
+                        <h4>&copy; 2018 DigitalOcean, LLC. All right reserved.</h4>
+                        <p>Proudly made in NYC</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Leadership</a></li>
+                            <li><a href="">Link</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Partner Network</a></li>
+                            <li><a href="">Referral Program</a></li>
+                            <li><a href="">Events</a></li>
+                            <li><a href="">Press</a></li>
+                            <li><a href="">Legal &amp; Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="">Droplets</a></li>
+                            <li><a href="">Spaces</a></li>
+                            <li><a href="">Kubernetes</a></li>
+                            <li><a href="">Load Balancer</a></li>
+                            <li><a href="">Block Storage</a></li>
+                            <li><a href="">Tools &amp; Integrations</a></li>
+                            <li><a href="">One-Click Apps</a></li>
+                            <li><a href="">API</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Release Notes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="">Tutorials</a></li>
+                            <li><a href="">Meetups</a></li>
+                            <li><a href="">Q&amp;A</a></li>
+                            <li><a href="">Write for Donation</a></li>
+                            <li><a href="">Droplets for Demos</a></li>
+                            <li><a href="">Hatch</a></li>
+                            <li><a href="">Shop Swag</a></li>
+                            <li><a href="">Research Program</a></li>
+                            <li><a href="">Current Research</a></li>
+                            <li><a href="">Open Source</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="">Contact Support</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Network Status</a></li>
+                        </ul>
+                    </div>
+                </div> 
             </footer>
+
+            <div class="chatbox col-xs-6">
+                <div class="container-fluid">
+                    <div>
+                        <img src="img/shark.png" alt="shark" id="avatar">
+                    </div>
+                    <div>
+                        <p id="chat_text">Can I help answer any questions you have about Digital Ocean?</p>
+                    </div>
+                    <!-- <div id="chat_counter">
+                        <p>2</p>
+                    </div> -->
+                </div>
+            </div>
         </main>
 
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     </body>
 </html>
