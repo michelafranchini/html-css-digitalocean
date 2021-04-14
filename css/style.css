@@ -196,23 +196,24 @@ form img {
     border-left: 2px solid #cccccc;
 }
 
-.deploy_item {
+.section_item {
     padding: 20px;
 }
 
-.deploy_item h4 {
+.section_item h4 {
+    margin-top: 20px;
     font-weight: bold;
     color: #031c4e;
 }
 
-.deploy_item p, 
+.section_item p, 
 .section_title h4, 
 .left_list li {
     color: #5c6a88;
 }
 
 @media screen and (max-width: 768px) {
-    .deploy_item {
+    .section_item {
         padding: 0px;
     }
 }
@@ -229,7 +230,8 @@ form img {
     color: #031c4e;
 }
 
-#first_slider {
+#first_slider,
+#features {
     padding-bottom: 50px;
 }
 
@@ -249,4 +251,21 @@ form img {
     }
 }
 
+/* features */
+/* Molte classi sono uguali a quelle della sezione deploy */
+
+.section_item a {
+    transition: all 0.8;
+    font-weight: bold;
+    color: #006aff;
+}
+.section_item a:hover {
+    font-size: 18px;
+}
+
+@media screen and (max-width:769px) {
+    .section_item {
+        margin: 20px 0;
+    }
+}
 
