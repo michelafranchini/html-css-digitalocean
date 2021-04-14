@@ -269,3 +269,44 @@ form img {
     }
 }
 
+/* tabella */
+
+.bg_gradient {
+    background-image: linear-gradient(#0048c5, #001e9a);
+}
+td:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ebeff9;
+}
+
+td:nth-child(2) {
+    color:#abbbe5;
+}
+td:last-child {
+    text-align: right;
+}
+
+td a {
+    color: #00d7d2;
+}
+td a:hover {
+    color: white;
+}
+
+.table>tbody>tr>td {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#table {
+    padding: 70px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .table-responsive {
+        border: none;
+        margin: 20px 0;
+    }
+}
+
