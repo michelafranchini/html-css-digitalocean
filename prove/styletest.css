@@ -143,3 +143,35 @@ form img {
         padding: 0px;
     }
 }
+
+/* gallery 1 */
+#slide {
+    width: 50%;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.fa-chevron-left {
+    color: #6f7b97;
+}
+
+.fa-chevron-right {
+    color: #031c4e;
+}
+
+#first_slider p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #031c4e;
+}
+
+.fas.fa-circle,
+.far.fa-circle {
+    color: #006aff ;
+}
