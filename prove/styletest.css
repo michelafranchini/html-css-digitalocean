@@ -85,3 +85,76 @@
 #second_slider a:hover {
     font-size: 18px;
 }
+
+.bg_gradient {
+    background-color: blue;
+}
+
+/* /* [class*="col-"] {
+    background-color: cadetblue;
+} */
+
+.white_text {
+    color: white;
+}
+.ms_row [class*="col-"]  {
+    padding: 0; 
+}
+.ms_row {
+    border-bottom: 1px solid white;
+    padding:0;
+    margin: 15px;
+}
+
+.table_city {
+    color: #b5c5e8 ;
+}
+
+.ms_table_left {
+    padding: 0 20px 0 0;
+}
+
+.ms_table_right {
+    padding: 0 0 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1199px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
+    }
+}

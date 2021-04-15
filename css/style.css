@@ -30,6 +30,10 @@ body {
     background-color: #f3f5f9;
 }
 
+.white_text {
+    color: white;
+}
+
 /* navbar */
 .ms_navbar {
     position: fixed;
@@ -92,9 +96,7 @@ h1 {
     background-image: url('../img/bg-banner-home.jpg');
     background-size: cover;
 }
-.white_text {
-    color: white;
-}
+
 .jumbotron_text {
     padding-right: 30px;
 }
@@ -285,11 +287,13 @@ form img {
 }
 
 /* tabella */
-
+#table {
+    padding: 50px 0;
+}
 .bg_gradient {
     background-image: linear-gradient(#0048c5, #001e9a);
 }
-td:first-child {
+/* td:first-child {
     text-transform: uppercase;
     font-weight: bold;
     color: #ebeff9;
@@ -322,6 +326,72 @@ td a:hover {
     .table-responsive {
         border: none;
         margin: 20px 0;
+    }
+} */
+
+.ms_row [class*="col-"]  {
+    padding: 0; 
+}
+.ms_row {
+    border-bottom: 1px solid white;
+    padding:0;
+    margin: 15px;
+}
+
+.table_city {
+    color: #b5c5e8 ;
+}
+
+.ms_table_left {
+    padding: 0 20px 0 0;
+}
+
+.ms_table_right {
+    padding: 0 0 0 20px;
+}
+
+#table a {
+    color: #00d7d2;
+}
+
+@media screen and (max-width: 768px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1199px) {
+    .ms_row {
+        padding:0;
+        margin: 0px 15px;
+    }
+    .ms_table_left {
+        padding: 0 0 0 0;
+    }
+    
+    .ms_table_right {
+        padding: 40px 0 0 0;
     }
 }
 
