@@ -40,3 +40,48 @@
     background-color: #006aff;
     color: white;
 }
+.fa-chevron-down {
+    font-size: 13px;
+}
+/* gallery 2  */
+
+
+
+#section_slider {
+    padding-bottom: 50px;
+    vertical-align: middle;
+}
+#second_slider {
+    background-color: #006aff;
+    position: relative;
+    margin: 50px 0 30px;
+}
+
+#second_slider .fa-chevron-left,
+#second_slider .fa-chevron-right {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 130px;
+}
+
+#white_slider {
+    /* margin-top: 50px; */
+    display: inline-block;
+    width: 70%;
+    height: 292px;
+    padding: 50px 10px;
+    background-color: white;
+}
+
+#white_slider img {
+    width: 50%;
+}
+
+#second_slider a {
+    transition: all 0.8;
+    font-weight: bold;
+    color: #006aff;
+}
+#second_slider a:hover {
+    font-size: 18px;
+}

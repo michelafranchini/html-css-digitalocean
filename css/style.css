@@ -30,18 +30,20 @@ body {
 .ms_navbar {
     position: fixed;
     z-index: 2;
-    height: 50px;
+    height: 51px;
     line-height: 50px;
     width: 100%;
     margin-bottom: 0;
     background-color: white;
 }
 .ms_navbar a {
-    color: #031c4e;
     font-size: 16px;
+    color: #031c4e;
+    background-color: white;
 }
 .nav>li>a:focus,
-.nav>li>a:hover {
+.nav>li>a:hover,
+.dropdown-menu>li>a:hover {
     color: #046fff;
     background-color: white;
 }
@@ -63,8 +65,8 @@ body {
 }
 
 .btn_signup {
-    background-color: transparent;
     border: 1px solid #046fff;
+    background-color: white;
     color: #046fff;
 }
 .btn_signup:hover {
@@ -72,6 +74,9 @@ body {
     color: white;
 }
 
+.dropdown-menu>li>a {
+    color: #031c4e;
+}
 /* jumbotron */
 h1 {
     font-size: 63px;
@@ -319,25 +324,25 @@ td a:hover {
 /* gallery 2  */
 #section_slider {
     padding-bottom: 50px;
+    vertical-align: middle;
 }
 #second_slider {
     position: relative;
     margin: 50px 0 30px;
 }
-#second_slider .fa-chevron-left {
-    position: absolute;
-    top: 30%;
-    left: 7%;
-}
+
+#second_slider .fa-chevron-left,
 #second_slider .fa-chevron-right {
-    position: absolute;
-    top: 30%;
-    left: 85%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 130px;
 }
+
 #white_slider {
     /* margin-top: 50px; */
     display: inline-block;
     width: 70%;
+    height: 292px;
     padding: 50px 10px;
     background-color: white;
 }
@@ -353,6 +358,13 @@ td a:hover {
 }
 #second_slider a:hover {
     font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    #second_slider .fa-chevron-left,
+    #second_slider .fa-chevron-right {
+    display: none;
+    }
 }
 
 /* sezione sopra il footer */
