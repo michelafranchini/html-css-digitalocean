@@ -2,6 +2,10 @@
 body {
     position: relative;
 }
+
+.btn {
+    transition: all 0.5s;
+}
 .fa-chevron-left,
 .fa-chevron-right {
     font-size: 40px;
@@ -112,12 +116,12 @@ h1 {
     color: #006aff;
 }
 .btn_blu {
-    transition: all 0.3;
     background-color: #579aff ;
     color: white;
 }
 .btn_blu:hover {
     background-color:#046fff ;
+    color: white;
 }
 
 .btn_white_google {
