@@ -498,56 +498,44 @@ footer a:hover {
     width: 100%;
     position: fixed;
     right: 1%;
-    bottom: 13%;
+    bottom: 5%;
 }
-#chat_text p {
-    font-size: 14px;
-}
-#chat_text {
-    position: absolute;
-    width: 16%;
-    top: 50%;
-    right: 12%;
-    transform: translate(37%, -38%);
-    padding: 10px;
-    border-radius: 7px;
-    background-color: white;
-}
+
 #avatar {
-    position: absolute;
+    /* position: relative; */
     width: 90px;
-    top: 50%;
-    left: 97%;
-    transform: translate(-50%, -39%);
     padding: 10px;
     border-radius: 7px;
     background-color: #006aff;
 }
 
-/* #chat_counter p {
+.chatbox p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid #031c4e;
+    background-color: white;
+    color: #031c4e;
+}
+
+/* .chatbox span {
     position: absolute;
-    bottom: 3px;
-    right: 44px;
-    padding: 5px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
+    padding: 10px 15px;
     background-color: red;
-    color: white;
 } */
 
-@media screen and (max-width: 768px) {
-    
-    /* #avatar {
-        position: absolute;
-        width: 90px;
-        top: 50%;
-        left: -142%;
-        transform: translate(-50%, -162%);
+
+@media screen and (max-width: 1199px) {
+
+    #avatar,
+    .chatbox p {
+        margin-bottom: 20px;
+        margin-left: 40px;
     }
-    #chat_text {
-        position: absolute;
-        width: 200px;
-        top: 50%;
-        left: -142%;
-        transform: translate(-50%, -162%);
-    } */
+  
 }
